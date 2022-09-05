@@ -13,14 +13,19 @@ Olá, este é o RenomearEXT, um pequeno programa de linha de comandos windows qu
 Basicamente, eu volta e na volta, necessitava de mudar extensão de um número ainda grande de ficheiros.
 E como fazer isso manualmente pela interface do Windows era chato decidi procurar outras formas de fazer.
 Inicialmente aprendi a fazer isso pela linha de comandos usando o comando
+```
     ren *.* *.extensão
+```
 Mas como só recentemente descobri que dá para abrir a pasta no terminal a partir do explorador de ficheiros, eu sempre tive de fazer
+```
     cd /pasta/pasta
+```
 Que rápidamente torna-se chato estar a escrever.
 Portanto iniciei uma pesquisa rápida sobre como automatizar este processo.
 Foi nesse momento que descobri o que era um Batch File, onde poderia escrever comandos da linha de comandos, que executariam por ordem.
 Deve confesar que sei usar um pouco a linha de comandos mas nada de muito avançado. Mas os conhecimentos que tenho combinados com o poder da pesquisa na internet permitem fazer aquilo que pertendo.
 Inícialmente o programa que criei era este:
+```
     @ECHO OFF
     ECHO A preparar para mudar a extensao a todos os ficheiros...
     cd pasta
@@ -28,6 +33,7 @@ Inícialmente o programa que criei era este:
     ECHO Fim da mudança de extensao
     cd ..
     PAUSE
+```
 Fiquei bastante satisfeito quando verifiquei que funcionava às maravilhas.
 E podia ter ficado por aí, mas como agora é evidente não fiquei.
 Após algumas reflexões cheguei à conclusão que havia algumas coisas que podiam ser alteradas.
