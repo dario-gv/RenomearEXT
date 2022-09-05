@@ -12,5 +12,9 @@ cd %pastafonte%
 SET /P extensaodestino=Introduza a extensao para a qual quer mudar os ficheiros - 
 ren *.* *.%extensaodestino%
 cd ..
+ECHO.
 ECHO Fim da mudanca de extensao
+ECHO.
+ECHO Obrigado por usar a ferramenta.
+ECHO Para mais informacoes visite: https://github.com/dario-gv/RenomearEXT
 PAUSE
