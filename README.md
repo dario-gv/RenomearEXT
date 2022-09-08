@@ -44,4 +44,4 @@ Assim que encontrei a solução começei a escrever.
 E pronto, foi mais ou menos assim que esta ideia começou.
 
 ## Informações extra
-Infelizmente devido a circunstâncias que desconheço, acentos e o "ç" não aparecem de forma correta.
+Nada a apontar.
